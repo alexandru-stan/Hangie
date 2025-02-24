@@ -1,0 +1,5 @@
+D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/blds/nlohmann-json/x64-windows-dbg/CMakeFiles/edit_cache.dir
+D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/blds/nlohmann-json/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
+D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/blds/nlohmann-json/x64-windows-dbg/CMakeFiles/list_install_components.dir
+D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/blds/nlohmann-json/x64-windows-dbg/CMakeFiles/install.dir
+D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/blds/nlohmann-json/x64-windows-dbg/CMakeFiles/install/local.dir

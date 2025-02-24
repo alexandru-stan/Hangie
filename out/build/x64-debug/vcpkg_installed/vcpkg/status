@@ -1,0 +1,90 @@
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: dc9e7ef41c74971d1d9ea05a539f5e868595eeb89628e5bc17173c5e3b1a3e12
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7e91cb4296836f8885a963096a881f3bcd970665cb19d910a2f54a41d00f5fc6
+Description: A compression library
+Status: install ok installed
+
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 04d175d7eb1a221bc082495fb42e6c6dadc17ef322a3de42af48eb3912aa9cb2
+Status: install ok installed
+
+Package: curl
+Version: 8.10.1
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 925b33f3b5cdffa74b5ec0853a1ae103a388c8be557d3a035ad02c0d66150aa0
+Description: A library for transferring data with URLs
+Default-Features: non-http, ssl
+Status: install ok installed
+
+Package: curl
+Feature: non-http
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enables protocols beyond HTTP/HTTPS/HTTP2
+Status: install ok installed
+
+Package: curl
+Feature: schannel
+Architecture: x64-windows
+Multi-Arch: same
+Description: SSL support (Secure Channel)
+Status: install ok installed
+
+Package: curl
+Feature: ssl
+Architecture: x64-windows
+Multi-Arch: same
+Description: Default SSL backend
+Status: install ok installed
+
+Package: curl
+Feature: sspi
+Architecture: x64-windows
+Multi-Arch: same
+Description: SSPI support
+Status: install ok installed
+
+Package: cpr
+Version: 1.10.5
+Port-Version: 2
+Depends: curl, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d4f642d16498ca2c147e8827e3346b7bd4fffb3e64cba73acde005363c27144a
+Description: C++ Requests is a simple wrapper around libcurl inspired by the excellent Python Requests project.
+Default-Features: ssl
+Status: install ok installed
+
+Package: cpr
+Feature: ssl
+Depends: curl
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable SSL support
+Status: install ok installed
+
+Package: nlohmann-json
+Version: 3.11.3
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d42cfd1f9c61626dc17708e564a0c36471ca28cf28907384f723b6c837551e9e
+Description: JSON for Modern C++
+Status: install ok installed
+
