@@ -1,0 +1,14 @@
+-- Downloading https://github.com/nlohmann/json/archive/v3.11.3.tar.gz -> nlohmann-json-v3.11.3.tar.gz...
+-- Extracting source C:/Users/alexs/AppData/Local/vcpkg/downloads/nlohmann-json-v3.11.3.tar.gz
+-- Using source at D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/blds/nlohmann-json/src/v3.11.3-434e7fbc3e.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/nlohmann-json_x64-windows/share/pkgconfig/nlohmann_json.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/alexs/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+-- Fixing pkgconfig file: D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/nlohmann-json_x64-windows/debug/share/pkgconfig/nlohmann_json.pc
+-- Installing: D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/nlohmann-json_x64-windows/share/nlohmann-json/copyright
+-- Performing post-build validation

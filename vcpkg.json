@@ -1,0 +1,19 @@
+{
+    "name": "hangie",
+    "version-string": "1.0.0",
+    "dependencies": [
+        {
+            "name": "cpr"
+
+        },
+
+        {
+            "name": "nlohmann-json"
+        }
+    ],
+
+
+
+    "builtin-baseline": "2960d7d80e8d09c84ae8abf15c12196c2ca7d39a"
+}
+
