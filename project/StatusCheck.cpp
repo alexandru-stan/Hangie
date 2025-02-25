@@ -7,11 +7,10 @@ using namespace std;
 class StatusCheck{
 
 public:
-	static bool status_check() {
+	static bool status_check(int& health, bool& successful) {
 
-	std::ifstream jsonFileStream("../../../hangie.json");
-	json j = json::parse(jsonFileStream);
-	return ((j["health"] > 0) && !j["successful"]);
+
+	return ((health >  0) && !successful);
 
 
 }
