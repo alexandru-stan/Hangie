@@ -34,7 +34,10 @@ int main() {
 	int health = j["health"].get<int>();
 	bool successful = j["successful"].get<bool>();
 	bool availability = StatusCheck::status_check(health, successful);
-	time_t parsedDate = Utilities::parseDate(j["date"].get<string>());
+	bool parsedDate = Utilities::isWordUpdated(j["date"].get<string>());
+
+	cout << (parsedDate ? " YEPPPPP " : " NOUPPPPP ") << endl;
+
 	if (availability) {
 
 
@@ -54,10 +57,11 @@ int main() {
 
 		//cout << dateJson << endl;
 
-		//auto tm = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
-		//cout << std::chrono::system_clock::now() << endl;
-		//cout << std::put_time(std::localtime(&tm), "%d.%m.%Y") << endl;
-		////cout << ()  << endl;
+		/*auto tm = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
+		cout << std::chrono::system_clock::now() << endl;
+		cout << std::put_time(std::localtime(&tm), "%d.%m.%Y") << endl;*/
+		
+	
 
 
 
