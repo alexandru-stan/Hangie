@@ -65,6 +65,14 @@ build CMakeFiles\Hangie.dir\project\GetTodaysWord.cpp.obj: CXX_COMPILER__Hangie_
   TARGET_COMPILE_PDB = CMakeFiles\Hangie.dir\
   TARGET_PDB = Hangie.pdb
 
+build CMakeFiles\Hangie.dir\project\Duel.cpp.obj: CXX_COMPILER__Hangie_unscanned_Debug D$:\Proyectos\C++\Hangie\project\Duel.cpp || cmake_object_order_depends_target_Hangie
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
+  INCLUDES = -external:ID:\Proyectos\C++\Hangie\out\build\x64-debug\vcpkg_installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\Hangie.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hangie.dir\project
+  TARGET_COMPILE_PDB = CMakeFiles\Hangie.dir\
+  TARGET_PDB = Hangie.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Hangie
@@ -73,7 +81,7 @@ build CMakeFiles\Hangie.dir\project\GetTodaysWord.cpp.obj: CXX_COMPILER__Hangie_
 #############################################
 # Link the executable Hangie.exe
 
-build Hangie.exe: CXX_EXECUTABLE_LINKER__Hangie_Debug CMakeFiles\Hangie.dir\project\Hangie.cpp.obj CMakeFiles\Hangie.dir\project\GetTodaysWord.cpp.obj | vcpkg_installed\x64-windows\debug\lib\cpr.lib vcpkg_installed\x64-windows\debug\lib\libcurl-d.lib
+build Hangie.exe: CXX_EXECUTABLE_LINKER__Hangie_Debug CMakeFiles\Hangie.dir\project\Hangie.cpp.obj CMakeFiles\Hangie.dir\project\GetTodaysWord.cpp.obj CMakeFiles\Hangie.dir\project\Duel.cpp.obj | vcpkg_installed\x64-windows\debug\lib\cpr.lib vcpkg_installed\x64-windows\debug\lib\libcurl-d.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = vcpkg_installed\x64-windows\debug\lib\cpr.lib  vcpkg_installed\x64-windows\debug\lib\libcurl-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

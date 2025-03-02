@@ -7,8 +7,9 @@ using namespace std;
 class StatusCheck{
 
 public:
-	static bool status_check(int& health, bool& successful) {
+	static bool status_check(int health, bool successful) {
 
+		//cout << "ADDRESS OF HEALTH INSIDE IS " << &health << endl;
 
 	return ((health >  0) && !successful);
 

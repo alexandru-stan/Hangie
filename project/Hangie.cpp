@@ -9,34 +9,46 @@
 #include <typeinfo>
 #include <time.h>
 #include "Utilities.cpp"
-//using namespace nlohmann;
-//using namespace std;
+#include "Duel.cpp"
+#include <cstring>
+
+using namespace nlohmann;
+using namespace std;
 
 int main() {
-	//json j_string(json::value_t::string);
-	//string todaysWord = GetTodaysWord::return_word();
-	//std::cout  << todaysWord << endl;
-	//std::cout  << "Current Path: " << std::filesystem::current_path() << std::endl;
-	//std::ifstream jsonFileStream("../../../hangie.json");
-	//std::ofstream jsonOut("../../../try.json");
-	//json j = json::parse(jsonFileStream);
-	//jsonOut << std::setw(4) << j;
-	//std::cout << std::setw(4) << j << endl;
-	//std::cout << ((j["health"] != 0) ? " u alive" : "u dead ")
-	//std::cout << j["word"].get<std::string>() << flush;
-
-
-
 
 	std::ifstream jsonFileStream("../../../hangie.json");
 	json j = json::parse(jsonFileStream);
+	bool upToDate = Utilities::UpToDate(j["date"].get<int>());
 
-	int health = j["health"].get<int>();
-	bool successful = j["successful"].get<bool>();
-	bool availability = StatusCheck::status_check(health, successful);
-	bool parsedDate = Utilities::isWordUpdated(j["date"].get<string>());
 
-	cout << (parsedDate ? " YEPPPPP " : " NOUPPPPP ") << endl;
+
+
+
+
+
+
+	if (!upToDate) {
+	
+
+		cout << "YOU'RE NOT UP TO DATE , WILL REQUEST A NEW WORD" << endl;
+		j["word"] = GetTodaysWord::return_word();
+		j["date"] = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
+		j["health"] = 5;
+		j["successful"] = false;
+
+		ofstream out("../../../hangie.json");
+		out << setw(2) << j << endl;
+
+	}
+	
+
+
+
+	bool availability = StatusCheck::status_check((j["health"].get<int>()), (j["successful"].get<bool>()));
+
+
+
 
 	if (availability) {
 
@@ -45,29 +57,27 @@ int main() {
 		Challenge ch = Challenge(
 
 			j["word"].get<string>(),
-			j["date"].get<string>(),
-			health,
-			successful
+			j["date"].get<int>(),
+			j["health"].get<int>(),
+			j["successful"].get<bool>()
 
 
 		);
 
 		
-	
-
-		//cout << dateJson << endl;
-
-		/*auto tm = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
-		cout << std::chrono::system_clock::now() << endl;
-		cout << std::put_time(std::localtime(&tm), "%d.%m.%Y") << endl;*/
 		
-	
-
-
+			Duel::duel(ch);
+		
+			std::ofstream out("../../../hangie.json");
+			j["successful"] = ch.getSuccessful();
+			j["health"] = ch.getHealth();
+			
+			out << setw(2) <<  j << std::endl;
 
 	}
 	else {
 		cout << "You've already played today, please come back tomorrow" << endl;
+		system("pause");
 
 	}
 

@@ -14,11 +14,14 @@ private:
     
     static string make_http_request() {
     
-        cpr::Response r = cpr::Get(cpr::Url{ "https://random-word-api.herokuapp.com/word" });
+        cpr::Response r = cpr::Get(cpr::Url{ "https://random-word-api.herokuapp.com/word?lang=es" });
         
         string response = r.text;
         response.erase(0,2);
         response.erase((response.length() - 2), 2);
+        
+        cout << response << endl;
+
         return response;
 
 
