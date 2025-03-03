@@ -12,7 +12,7 @@ endif()
 project ("Hangie")
 
 # Add source to this project's executable.
-add_executable (Hangie "project/Hangie.cpp" "project/Hangie.h" "project/GetTodaysWord.cpp" "project/Duel.cpp")
+add_executable (Hangie "project/Hangie.cpp" "project/Hangie.h" "project/cpp/GetTodaysWord.cpp" "project/cpp/Duel.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Hangie PROPERTY CXX_STANDARD 20)

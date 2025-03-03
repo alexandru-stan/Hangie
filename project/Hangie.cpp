@@ -1,16 +1,24 @@
-﻿#include <iostream>
-#include "GetTodaysWord.cpp"
-#include "StatusCheck.cpp"
+﻿
+//USER DEFINED HEADERS
+#include <iostream>
 #include "Hangie.h"
 #include "nlohmann/json.hpp"
 #include "filesystem"
 #include "ctime"
-#include "Challenge.hpp"
 #include <typeinfo>
 #include <time.h>
-#include "Utilities.cpp"
-#include "Duel.cpp"
+#include <fstream>
 #include <cstring>
+
+
+
+#include "Utilities.cpp"
+#include "headers/Challenge.hpp"
+#include "headers/Duel.hpp"
+#include "headers/GetTodaysWord.hpp"
+#include "StatusCheck.cpp"
+
+
 
 using namespace nlohmann;
 using namespace std;
