@@ -1,0 +1,11 @@
+-- Note: cpr only supports static library linkage. Building static library.
+-- Downloading https://github.com/libcpr/cpr/archive/1.10.5.tar.gz -> libcpr-cpr-1.10.5.tar.gz...
+-- Extracting source C:/Users/alexs/AppData/Local/vcpkg/downloads/libcpr-cpr-1.10.5.tar.gz
+-- Applying patch disable_werror.patch
+-- Using source at D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/src/1.10.5-254c19356c.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/pkgs/cpr_x64-windows/share/cpr/copyright
+-- Performing post-build validation

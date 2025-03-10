@@ -1,0 +1,16 @@
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/CMakeFiles/edit_cache.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/CMakeFiles/list_install_components.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/CMakeFiles/install.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/CMakeFiles/install/local.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/cpr/CMakeFiles/cpr.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/cpr/CMakeFiles/edit_cache.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/cpr/CMakeFiles/rebuild_cache.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/cpr/CMakeFiles/list_install_components.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/cpr/CMakeFiles/install.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/cpr/CMakeFiles/install/local.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/include/CMakeFiles/edit_cache.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/include/CMakeFiles/rebuild_cache.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/include/CMakeFiles/list_install_components.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/include/CMakeFiles/install.dir
+D:/Proyectos/C++/Hangie/vcpkg_installed/vcpkg/blds/cpr/x64-windows-dbg/include/CMakeFiles/install/local.dir

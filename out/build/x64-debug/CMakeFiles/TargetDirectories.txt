@@ -1,0 +1,3 @@
+D:/Proyectos/C++/Hangie/out/build/x64-debug/CMakeFiles/Hangie.dir
+D:/Proyectos/C++/Hangie/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/Proyectos/C++/Hangie/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
