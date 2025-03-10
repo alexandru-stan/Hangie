@@ -14,7 +14,7 @@
 #include "headers/Duel.hpp"
 #include "headers/GetTodaysWord.hpp"
 #include "StatusCheck.cpp"
-
+#include "sqlite3.h"
 
 using namespace nlohmann;
 using namespace std;
@@ -69,6 +69,8 @@ int main() {
 		//);
 
 		
+		
+
 		
 			//Duel::duel(ch);
 		

@@ -1,2 +1,4 @@
 install
-cpr	
+cpr
+nlohmann
+sqlite3

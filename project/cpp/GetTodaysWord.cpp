@@ -4,7 +4,7 @@
 #include <cpr/cpr.h>
 #include "../headers/GetTodaysWord.hpp"
 #include <algorithm>
-#include "../../data/sqlite/sqlite3.h";
+//#include "../../data/sqlite/sqlite3.h";
 using namespace std;
 
 
@@ -16,16 +16,11 @@ using namespace std;
     
      string GetTodaysWord::fetch_word() {
     
-         cout << "hello world" << endl;
+        cout << "hello world" << endl;
+        sqlite3* db;
+        int connection_fail = sqlite3_open("hangie.db", &db);
 
-
-         //if (connection_fail) {
-             //cerr << "DB CONNECTION ERROR" << endl;
-         //}
-         //else {
-             //cout << "db connection success" << endl;
-         //}*/
-
+       
 
 
        

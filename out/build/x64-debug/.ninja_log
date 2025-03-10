@@ -2,7 +2,10 @@
 21	3356	7621234040889303	CMakeFiles/Hangie.dir/Hangie.cpp.obj	2ab2c09452e225ee
 10	2336	7627330656547408	CMakeFiles/Hangie.dir/project/GetTodaysWord.cpp.obj	dbef72092c09b705
 24	686	7627359609769335	CMakeFiles/Hangie.dir/project/Duel.cpp.obj	e084bf3f83bd379b
-2370	2755	7632406843943276	Hangie.exe	d9c160b8703bb879
-22	2299	7632407459585057	CMakeFiles/Hangie.dir/project/Hangie.cpp.obj	91c7d0bb191d284d
+2584	3033	7633398944958846	Hangie.exe	d9c160b8703bb879
+23	2319	7633392815070910	CMakeFiles/Hangie.dir/project/Hangie.cpp.obj	91c7d0bb191d284d
 21	682	7627362439261631	CMakeFiles/Hangie.dir/project/cpp/Duel.cpp.obj	1f947e3fa6564f2
-21	2369	7632406820461951	CMakeFiles/Hangie.dir/project/cpp/GetTodaysWord.cpp.obj	683ca47c529cb1d0
+16	2584	7633398919279744	CMakeFiles/Hangie.dir/project/cpp/GetTodaysWord.cpp.obj	683ca47c529cb1d0
+15	409	7633413857857862	Hangie.exe	fcc7cc084e9e2ca4
+35	2683	7633456872121409	CMakeFiles/Hangie.dir/project/cpp/GetTodaysWord.cpp.obj	683ca47c529cb1d0
+2684	4074	7633456898615460	Hangie.exe	fcc7cc084e9e2ca4

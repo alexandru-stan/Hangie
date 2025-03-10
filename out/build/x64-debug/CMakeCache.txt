@@ -210,6 +210,12 @@ Hangie_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Hangie_SOURCE_DIR:STATIC=D:/Proyectos/C++/Hangie
 
+//Path to a file.
+SQLite3_INCLUDE_DIR:PATH=D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/include
+
+//Path to a library.
+SQLite3_LIBRARY:FILEPATH=D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/debug/lib/sqlite3.lib
+
 //Automatically copy dependencies into the output directory for
 // executables.
 VCPKG_APPLOCAL_DEPS:BOOL=ON
@@ -295,6 +301,12 @@ cpr_DIR:PATH=D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-win
 
 //The directory containing a CMake configuration file for nlohmann_json.
 nlohmann_json_DIR:PATH=D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/share/nlohmann_json
+
+//The directory containing a CMake configuration file for sqlite3.
+sqlite3_DIR:PATH=sqlite3_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for unofficial-sqlite3.
+unofficial-sqlite3_DIR:PATH=D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/share/unofficial-sqlite3
 
 
 ########################
@@ -443,10 +455,16 @@ CURL_LIBRARY_DEBUG:INTERNAL=D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_in
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //vcpkg
 CURL_LIBRARY_RELEASE:INTERNAL=D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/lib/libcurl.lib
+//Details about finding SQLite3
+FIND_PACKAGE_MESSAGE_DETAILS_SQLite3:INTERNAL=[D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/include][D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/debug/lib/sqlite3.lib][v3.46.1()]
 //Details about finding ZLIB
 FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[optimized;D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/lib/zlib.lib;debug;D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/debug/lib/zlibd.lib][D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/include][c ][v1.3.1(1)]
 //Details about finding nlohmann_json
 FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/x64-windows/share/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.3()]
+//ADVANCED property for variable: SQLite3_INCLUDE_DIR
+SQLite3_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SQLite3_LIBRARY
+SQLite3_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: VCPKG_VERBOSE
 VCPKG_VERBOSE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_INCLUDE_DIR
