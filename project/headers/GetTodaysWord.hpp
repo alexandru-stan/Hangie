@@ -1,7 +1,8 @@
 #ifndef GET_TODAYS_WORD_HPP
 #define GET_TODAYS_WORD_HPP
 #include <string>
-#include "../../data/sqlite/sqlite3.h";
+#include <sqlite3.h>
+
 
 class GetTodaysWord {
 public:
@@ -10,7 +11,8 @@ public:
 private:
 
     static std::string fetch_word();
-
+    static int open_db_connection(sqlite3** db);
+    static std::string fetch_db_word(sqlite3** db);
 };
 
 #endif
