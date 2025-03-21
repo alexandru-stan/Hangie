@@ -630,7 +630,7 @@ function(add_executable)
             endif()
         endif()
         set_target_properties("${target_name}" PROPERTIES VS_USER_PROPS do_not_import_user.props)
-        set_target_properties("${target_name}" PROPERTIES VS_GLOBAL_VcpkgEnabled false)
+        set_target_properties("${target_name}" PROPERTIES VS_GLOBAL_VcpkgEnabled true)
     endif()
 endfunction()
 

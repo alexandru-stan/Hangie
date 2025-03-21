@@ -1,8 +1,0 @@
-D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/sqlite3_x64-windows/lib/sqlite3.lib
-D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/sqlite3_x64-windows/bin/sqlite3.dll
-D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/sqlite3_x64-windows/include/sqlite3.h
-D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/sqlite3_x64-windows/include/sqlite3ext.h
-D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/sqlite3_x64-windows/include/sqlite3-vcpkg-config.h
-D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/sqlite3_x64-windows/share/unofficial-sqlite3/unofficial-sqlite3-targets.cmake
-D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/sqlite3_x64-windows/share/unofficial-sqlite3/unofficial-sqlite3-targets-release.cmake
-D:/Proyectos/C++/Hangie/out/build/x64-debug/vcpkg_installed/vcpkg/pkgs/sqlite3_x64-windows/lib/pkgconfig/sqlite3.pc

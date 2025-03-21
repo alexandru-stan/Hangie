@@ -3,7 +3,7 @@ Version: 8.10.1
 Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 925b33f3b5cdffa74b5ec0853a1ae103a388c8be557d3a035ad02c0d66150aa0
+Abi: 963c359f137df59f995d2b45282b5c132e819b7baa587b1dfeb4ecb726fe2058
 Description: A library for transferring data with URLs
 Default-Features: non-http, ssl
 

@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/curl-x64-windows-8.10.1-93648996-7905-4af2-8dfc-5ed9573a140f",
-  "name": "curl:x64-windows@8.10.1 925b33f3b5cdffa74b5ec0853a1ae103a388c8be557d3a035ad02c0d66150aa0",
+  "documentNamespace": "https://spdx.org/spdxdocs/curl-x64-windows-8.10.1-a924a5ce-2fb6-4877-a745-131aa3ab0ad5",
+  "name": "curl:x64-windows@8.10.1 963c359f137df59f995d2b45282b5c132e819b7baa587b1dfeb4ecb726fe2058",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
     ],
-    "created": "2025-02-23T16:10:42Z"
+    "created": "2025-03-20T09:54:39Z"
   },
   "relationships": [
     {
@@ -149,7 +149,7 @@
     {
       "name": "curl:x64-windows",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "925b33f3b5cdffa74b5ec0853a1ae103a388c8be557d3a035ad02c0d66150aa0",
+      "versionInfo": "963c359f137df59f995d2b45282b5c132e819b7baa587b1dfeb4ecb726fe2058",
       "downloadLocation": "NONE",
       "licenseConcluded": "curl AND ISC AND BSD-3-Clause",
       "licenseDeclared": "NOASSERTION",

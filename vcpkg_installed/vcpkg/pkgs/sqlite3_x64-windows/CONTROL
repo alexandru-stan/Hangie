@@ -3,7 +3,7 @@ Version: 3.46.1
 Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 846d59563bcb996e71738f46ed6da49d02af9ecdb59fc09d3ba2272e6b29e289
+Abi: 7f9036327e9a5886e75fab5e9f587dc06dd5b3df81f62b44a36f75f770093b15
 Description: SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
 Default-Features: json1
 
