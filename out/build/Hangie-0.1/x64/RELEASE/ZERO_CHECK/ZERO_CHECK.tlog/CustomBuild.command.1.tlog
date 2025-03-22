@@ -1,0 +1,10 @@
+^D:\PROYECTOS\C++\HANGIE\OUT\BUILD\HANGIE-0.1\CMAKEFILES\11575B643789F59F45B175A05D889740\GENERATE.STAMP.RULE
+setlocal
+D:\Cmake\bin\cmake.exe -SD:/Proyectos/C++/Hangie -BD:/Proyectos/C++/Hangie/out/build/Hangie-0.1 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Proyectos/C++/Hangie/out/build/Hangie-0.1/Hangie.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Proyectos\C++\Hangie\out\build\Hangie-0.1\CMakeFiles\11575b643789f59f45b175a05d889740\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4DD96355-38CA-35DE-832E-4352E7966D8F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

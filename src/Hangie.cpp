@@ -1,7 +1,6 @@
 ﻿
-//USER DEFINED HEADERS
 #include <iostream>
-#include "Hangie.h"
+#include "headers/Hangie.h"
 #include "nlohmann/json.hpp"
 #include "filesystem"
 #include "ctime"
@@ -35,7 +34,7 @@ int main() {
 	if (!upToDate) {
 	
 
-		cout << "YOU'RE NOT UP TO DATE , WILL REQUEST A NEW WORD" << endl;
+
 		j["word"] = GetTodaysWord::return_word();
 		j["date"] = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
 		j["health"] = 5;
@@ -82,6 +81,7 @@ int main() {
 
 	}
 	else {
+		cout << Hangie_VERSION_MAJOR << endl;
 		cout << "You've already played today, please come back tomorrow" << endl;
 		system("pause");
 

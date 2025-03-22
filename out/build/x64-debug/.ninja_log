@@ -1,9 +1,6 @@
 # ninja log v6
-15	660	7642712292539323	CMakeFiles/Hangie.dir/src/cpp/GetTodaysWord.cpp.obj	510027aa068ac44d
-12	689	7642712292499296	CMakeFiles/Hangie.dir/src/cpp/Duel.cpp.obj	2d5a420f0c01055a
-16	2397	7642724561952119	CMakeFiles/Hangie.dir/src/Hangie.cpp.obj	16dfe042b1617d3e
-609	773	7642726877548526	Hangie.exe	3db00e27805fb2c8
-13	644	7642726037548889	CMakeFiles/Hangie.dir/src/Duel.cpp.obj	f38f5d77b7cdf132
-6	609	7642726871515159	CMakeFiles/Hangie.dir/src/GetTodaysWord.cpp.obj	43de1b953bc442f1
-7	251	7642738549643748	CMakeFiles/Hangie.dir/resource.rc.res	71c078f89b445319
-251	457	7642738552085965	Hangie.exe	161eea8ffd3799c7
+18	105	7643594039332983	CMakeFiles/Hangie.dir/resource.rc.res	71c078f89b445319
+15	649	7643594039302947	CMakeFiles/Hangie.dir/src/GetTodaysWord.cpp.obj	43de1b953bc442f1
+12	679	7643594039272926	CMakeFiles/Hangie.dir/src/Duel.cpp.obj	f38f5d77b7cdf132
+9	2374	7643594039242891	CMakeFiles/Hangie.dir/src/Hangie.cpp.obj	16dfe042b1617d3e
+2374	2626	7643594062894363	bin/Hangie.exe	17536f15319fd319

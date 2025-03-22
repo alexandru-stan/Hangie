@@ -5,14 +5,16 @@ cmake_minimum_required (VERSION 3.8)
 
 # Enable Hot Reload for MSVC compilers if supported.
 
-project ("Hangie")
+project ("Hangie" VERSION 0.1)
 message("PATH  TO MODULE IS " ${CMAKE_SOURCE_DIR})
 list(APPEND CMAKE_PREFIX_PATH ${CMAKE_SOURCE_DIR}/vcpkg_installed/vcpkg/pkgs/nlohmann-json_x64-windows/share/nlohmann_json)
 list(APPEND CMAKE_PREFIX_PATH ${CMAKE_SOURCE_DIR}/vcpkg_installed/vcpkg/pkgs/sqlite3_x64-windows/share/unofficial-sqlite3)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/bin)
 
 # Add source to this project's executable.
 add_executable (Hangie "src/Hangie.cpp" "src/Duel.cpp" "src/GetTodaysWord.cpp" "resource.rc")
-
+configure_file("src/headerTemplate/Hangie.h.in" ${CMAKE_SOURCE_DIR}/src/headers/Hangie.h)
 
 
 set(SQLITE_DLL_PATH "${CMAKE_SOURCE_DIR}/vcpkg_installed/vcpkg/pkgs/sqlite3_x64-windows/debug/bin/sqlite3.dll")
@@ -21,7 +23,7 @@ add_custom_command(TARGET Hangie POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
     ${SQLITE_DLL_PATH} $<TARGET_FILE_DIR:Hangie>)
 
-    set(DATA_FOLDER "${CMAKE_BINARY_DIR}/data")
+    set(DATA_FOLDER "${CMAKE_BINARY_DIR}/bin/data")
     file(MAKE_DIRECTORY ${DATA_FOLDER})
 
 
