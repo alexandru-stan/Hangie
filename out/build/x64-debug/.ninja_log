@@ -1,6 +1,0 @@
-# ninja log v6
-18	105	7643594039332983	CMakeFiles/Hangie.dir/resource.rc.res	71c078f89b445319
-15	649	7643594039302947	CMakeFiles/Hangie.dir/src/GetTodaysWord.cpp.obj	43de1b953bc442f1
-12	679	7643594039272926	CMakeFiles/Hangie.dir/src/Duel.cpp.obj	f38f5d77b7cdf132
-9	2374	7643594039242891	CMakeFiles/Hangie.dir/src/Hangie.cpp.obj	16dfe042b1617d3e
-2374	2626	7643594062894363	bin/Hangie.exe	17536f15319fd319
