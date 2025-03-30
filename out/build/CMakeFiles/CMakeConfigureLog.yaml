@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Versi├│n de MSBuild 17.12.12+1cce77968 para .NET Framework
-      Compilaci├│n iniciada a las 30/03/2025 13:55:06.
+      Compilaci├│n iniciada a las 30/03/2025 14:21:58.
       
       Proyecto "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\4.0.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:00.44
+      Tiempo transcurrido 00:00:00.61
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       Versi├│n de MSBuild 17.12.12+1cce77968 para .NET Framework
-      Compilaci├│n iniciada a las 30/03/2025 13:55:07.
+      Compilaci├│n iniciada a las 30/03/2025 14:21:59.
       
       Proyecto "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\4.0.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:00.48
+      Tiempo transcurrido 00:00:00.46
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-ejdjas"
-      binary: "D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-ejdjas"
+      source: "D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-8spupu"
+      binary: "D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-8spupu"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -138,40 +138,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-ejdjas'
+        Change Dir: 'D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-8spupu'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d6004.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7e0c1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.12.12+1cce77968 para .NET Framework
-        Compilaci├│n iniciada a las 30/03/2025 13:55:07.
+        Compilaci├│n iniciada a las 30/03/2025 14:22:00.
         
-        Proyecto "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejdjas\\cmTC_d6004.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8spupu\\cmTC_7e0c1.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_d6004.dir\\Debug\\".
+          Creando directorio "cmTC_7e0c1.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejdjas\\Debug\\".
-          Creando directorio "cmTC_d6004.dir\\Debug\\cmTC_d6004.tlog\\".
+          Creando directorio "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8spupu\\Debug\\".
+          Creando directorio "cmTC_7e0c1.dir\\Debug\\cmTC_7e0c1.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_d6004.dir\\Debug\\cmTC_d6004.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_d6004.dir\\Debug\\cmTC_d6004.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_7e0c1.dir\\Debug\\cmTC_7e0c1.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_7e0c1.dir\\Debug\\cmTC_7e0c1.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6004.dir\\Debug\\\\" /Fd"cmTC_d6004.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e0c1.dir\\Debug\\\\" /Fd"cmTC_7e0c1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6004.dir\\Debug\\\\" /Fd"cmTC_d6004.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e0c1.dir\\Debug\\\\" /Fd"cmTC_7e0c1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejdjas\\Debug\\cmTC_d6004.exe" /INCREMENTAL /ILK:"cmTC_d6004.dir\\Debug\\cmTC_d6004.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-ejdjas/Debug/cmTC_d6004.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-ejdjas/Debug/cmTC_d6004.lib" /MACHINE:X64  /machine:x64 cmTC_d6004.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_d6004.vcxproj -> D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejdjas\\Debug\\cmTC_d6004.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8spupu\\Debug\\cmTC_7e0c1.exe" /INCREMENTAL /ILK:"cmTC_7e0c1.dir\\Debug\\cmTC_7e0c1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-8spupu/Debug/cmTC_7e0c1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-8spupu/Debug/cmTC_7e0c1.lib" /MACHINE:X64  /machine:x64 cmTC_7e0c1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7e0c1.vcxproj -> D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8spupu\\Debug\\cmTC_7e0c1.exe
         FinalizeBuildStatus:
-          Se eliminar├í el archivo "cmTC_d6004.dir\\Debug\\cmTC_d6004.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_d6004.dir\\Debug\\cmTC_d6004.tlog\\cmTC_d6004.lastbuildstate".
-        Compilaci├│n del proyecto terminada "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejdjas\\cmTC_d6004.vcxproj" (destinos predeterminados).
+          Se eliminar├í el archivo "cmTC_7e0c1.dir\\Debug\\cmTC_7e0c1.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_7e0c1.dir\\Debug\\cmTC_7e0c1.tlog\\cmTC_7e0c1.lastbuildstate".
+        Compilaci├│n del proyecto terminada "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8spupu\\cmTC_7e0c1.vcxproj" (destinos predeterminados).
         
         Compilaci├│n correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:00.51
+        Tiempo transcurrido 00:00:00.49
         
       exitCode: 0
   -
@@ -211,8 +211,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-jqrx23"
-      binary: "D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-jqrx23"
+      source: "D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-01bkca"
+      binary: "D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-01bkca"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -223,34 +223,34 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-jqrx23'
+        Change Dir: 'D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-01bkca'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_feb1d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7f71b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.12.12+1cce77968 para .NET Framework
-        Compilaci├│n iniciada a las 30/03/2025 13:55:08.
+        Compilaci├│n iniciada a las 30/03/2025 14:22:01.
         
-        Proyecto "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jqrx23\\cmTC_feb1d.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01bkca\\cmTC_7f71b.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_feb1d.dir\\Debug\\".
+          Creando directorio "cmTC_7f71b.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jqrx23\\Debug\\".
-          Creando directorio "cmTC_feb1d.dir\\Debug\\cmTC_feb1d.tlog\\".
+          Creando directorio "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01bkca\\Debug\\".
+          Creando directorio "cmTC_7f71b.dir\\Debug\\cmTC_7f71b.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_feb1d.dir\\Debug\\cmTC_feb1d.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_feb1d.dir\\Debug\\cmTC_feb1d.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_7f71b.dir\\Debug\\cmTC_7f71b.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_7f71b.dir\\Debug\\cmTC_7f71b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_feb1d.dir\\Debug\\\\" /Fd"cmTC_feb1d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7f71b.dir\\Debug\\\\" /Fd"cmTC_7f71b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_feb1d.dir\\Debug\\\\" /Fd"cmTC_feb1d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7f71b.dir\\Debug\\\\" /Fd"cmTC_7f71b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jqrx23\\Debug\\cmTC_feb1d.exe" /INCREMENTAL /ILK:"cmTC_feb1d.dir\\Debug\\cmTC_feb1d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-jqrx23/Debug/cmTC_feb1d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-jqrx23/Debug/cmTC_feb1d.lib" /MACHINE:X64  /machine:x64 cmTC_feb1d.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_feb1d.vcxproj -> D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jqrx23\\Debug\\cmTC_feb1d.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01bkca\\Debug\\cmTC_7f71b.exe" /INCREMENTAL /ILK:"cmTC_7f71b.dir\\Debug\\cmTC_7f71b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-01bkca/Debug/cmTC_7f71b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Proyectos/C++/Hangie/out/build/CMakeFiles/CMakeScratch/TryCompile-01bkca/Debug/cmTC_7f71b.lib" /MACHINE:X64  /machine:x64 cmTC_7f71b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_7f71b.vcxproj -> D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01bkca\\Debug\\cmTC_7f71b.exe
         FinalizeBuildStatus:
-          Se eliminar├í el archivo "cmTC_feb1d.dir\\Debug\\cmTC_feb1d.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_feb1d.dir\\Debug\\cmTC_feb1d.tlog\\cmTC_feb1d.lastbuildstate".
-        Compilaci├│n del proyecto terminada "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jqrx23\\cmTC_feb1d.vcxproj" (destinos predeterminados).
+          Se eliminar├í el archivo "cmTC_7f71b.dir\\Debug\\cmTC_7f71b.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_7f71b.dir\\Debug\\cmTC_7f71b.tlog\\cmTC_7f71b.lastbuildstate".
+        Compilaci├│n del proyecto terminada "D:\\Proyectos\\C++\\Hangie\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01bkca\\cmTC_7f71b.vcxproj" (destinos predeterminados).
         
         Compilaci├│n correcta.
             0 Advertencia(s)
