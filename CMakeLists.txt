@@ -1,10 +1,10 @@
 ﻿# CMakeList.txt : CMake project for Hangie, include source and define
 # project specific logic here.
 #
-cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required (VERSION 3.15)
 
 # Enable Hot Reload for MSVC compilers if supported.
-
+set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreadedDLL")
 project ("Hangie" VERSION 0.1)
 message("PATH  TO MODULE IS " ${CMAKE_SOURCE_DIR})
 list(APPEND CMAKE_PREFIX_PATH ${CMAKE_SOURCE_DIR}/vcpkg_installed/vcpkg/pkgs/nlohmann-json_x64-windows/share/nlohmann_json)

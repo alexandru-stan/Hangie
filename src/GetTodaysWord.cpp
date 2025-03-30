@@ -59,7 +59,7 @@ using namespace std;
          int rc = sqlite3_prepare_v2(*db, sql, -1, &stmt, NULL);
          const unsigned char* text;
          if (rc != SQLITE_OK) {
-             printf("error occurred: %s", sqlite3_errmsg(*db));
+             throw runtime_error("Database cannot be accessed, please reinstall");
          }
          else {
              sqlite3_step(stmt);
